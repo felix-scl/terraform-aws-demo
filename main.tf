@@ -122,14 +122,14 @@ resource "aws_instance" "web" {
         h1 {
           color: #0074B9;
         }
-        .orante-text {
+        .orange-text {
           color: #FD6A12;
         }
       </style>
     </head>
     <body>
       <div class="container">
-        <h1>Hola <span class="orange-text">Generation</span></h1>
+        <h1>¡Hola <span class="orange-text">Generation</span>!</h1>
       </div>
     </body>
     </html>' | sudo tee /var/www/html/index.html
