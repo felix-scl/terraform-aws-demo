@@ -103,20 +103,18 @@ provider "aws" {
 }
 ```
 
-2. Configura las variables de entorno:
+2. Configura las variables de entorno (reemplaza los valores por las claves del archivo accessKeys.csv:
 
 **En Linux/MacOS:**
 ```bash
 export AWS_ACCESS_KEY_ID="TU_ACCESS_KEY"
 export AWS_SECRET_ACCESS_KEY="TU_SECRET_KEY"
-export AWS_REGION="us-west-2"
 ```
 
 **En Windows (PowerShell):**
 ```powershell
 $env:AWS_ACCESS_KEY_ID="TU_ACCESS_KEY"
 $env:AWS_SECRET_ACCESS_KEY="TU_SECRET_KEY"
-$env:AWS_REGION="us-west-2"
 ```
 
 ## Desplegando la infraestructura
